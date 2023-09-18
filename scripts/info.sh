@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Display containers
-echo "---- Containers ----"
+echo "---- Containers ---- \n"
 docker ps -a
 
 # Display images
-echo "---- Images ----"
+echo "---- Images ---- \n"
 docker images
 
 # Display volumes
-echo "---- Volumes ----"
+echo "---- Volumes ---- \n"
 docker volume ls
 
 # Display networks
-echo "---- Networks ----"
+echo "---- Networks ---- \n"
 docker network ls

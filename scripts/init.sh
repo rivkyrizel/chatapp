@@ -12,4 +12,4 @@ fi
 # Your Docker build and run commands using the provided version
 docker build -t myapp:$version .
 
-docker run -d --name myapp-$version -p 5000:5000 --cpus "2.0" --memory "1g" myapp:$version
+docker run -d --name myapp-$version -p 5000:5000 --cpus "2.0" --memory "1g" -v rooms:/app/rooms myapp:$version
