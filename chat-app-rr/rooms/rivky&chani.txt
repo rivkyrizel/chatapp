@@ -1,8 +1,0 @@
-[2023-08-27 00:49:57] rivkyschon: Hi! this a really cool chat app!
-[2023-08-27 00:50:48] chani: yes, I agree!!
-[2023-08-27 00:52:44] rivkyschon: It is run with python Flask and we then containerized the whole app using docker container and it can now run independently on any computer regardless of the OS installed...
-[2023-08-27 00:52:58] chani: so cool
-[2023-08-27 07:34:10] rivky: this is a third person in this chat!!
-[2023-08-27 07:34:46] rivky: and again..
-[2023-08-27 07:35:08] chani: this is chani
-[2023-08-27 07:35:23] rivkyschon: and this is rivkyschon
