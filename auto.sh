@@ -48,7 +48,7 @@ if [ "${flag_to_script[$1]}" ]; then
   ./scripts/"$script_to_run"
 else
   echo "Invalid flag: $1"
-  echo "Usage: $0 [-d|--delete|-i|--init|-p|--prune|-in|--info]"
+  echo "Usage: $0 [-d|--delete|-i|--init|-p|--prune|-in|--info|-dep|--deploy]"
   # exit 1
 fi
 
