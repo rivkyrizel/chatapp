@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register Menu</title>
+    <link rel="stylesheet" href="../static/login.css">
+    <meta name='viewport' >
+</head>
+
+<body>
+    
+    <div class="login-box">
+
+        <h1 class="_form-title">Register</h1>
+
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="notification">
+              <p>
+                {{ messages[0] }}<br> If you are registerd already click here to log in to your account: <a href="{{ url_for('auth.login') }}">Login page</a>.
+              </p>
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <form id="login-form" class="form_area" action="{{ url_for('auth.register') }}" method="POST">
+
+          <div class="user-box">
+            <input type="text" name="username" placeholder="Username" required="">
+          </div>
+
+          <div class="user-box">
+            <input type="password" placeholder="Password" name="password" required="">
+          </div>
+
+          <input type="submit" name="" value="register" onclick="submitForm();">
+
+        </form>
+
+    </div>
+
+      <script>
+        function submitForm() {
+          document.getElementById("login-form").submit();
+        }
+      </script>
+
+</body>
+</html>
