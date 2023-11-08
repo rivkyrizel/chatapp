@@ -11,5 +11,5 @@ The Chat-App deployment project on Google Cloud Platform was a comprehensive dem
 
 One significant aspect was the utilization of Google Cloud's Artifact Registry for storing and managing application images securely. Managing the urgency of these images was achieved through the sophisticated use of service account impersonation, ensuring controlled access and security measures.
 
-Throughout this project, I honed my skills in Python application development, containerization, cloud-based automation, and secure image management in a real-world scenario. It showcased my ability to architect and deploy applications in a scalable and secure cloud environment, while also highlighting my proficiency in leveraging cloud-native tools for effective management and deployment practices."
+Throughout this project, I honed my skills in Python application development, containerization, cloud-based automation, and secure image management in a real-world scenario. It showcased my ability to architect and deploy applications in a scalable and secure cloud environment, while also highlighting my proficiency in leveraging cloud-native tools for effective management and deployment practices.
 
